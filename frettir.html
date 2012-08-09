@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+
+<div class="row">
+<div class="span8">
+  <div class="page-header">
+    <h1>Fréttir <small>og atburðir</small></h1>
+  </div>
+</div>
+<div class="span4">
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#openaccess OR #oa',
+  interval: 30000,
+  title: 'Umræðan um',
+  subject: 'Opinn aðgang',
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#8ec1da',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    behavior: 'all'
+  }
+}).render().start();
+</script>
+</div>
+</div>
