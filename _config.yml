@@ -1,5 +1,4 @@
 base_url:    /
 description:  "Open Access"
 root_desc:    "Forsida"
-permalink:    pretty
 markdown: rdiscount
