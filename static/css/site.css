@@ -42,3 +42,25 @@ footer {
     color: #999;
     content: "Höfundur: "
 }
+
+
+/* Mummi */
+
+
+.hero-unit {
+  padding: 20px;
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
+
+ul.nav li {
+  font-weight: bold;
+  font-size: 18px;
+}
