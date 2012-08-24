@@ -2,9 +2,6 @@ cite {
     font-style: italic;
 }
 
-h6 {
-    text-align: right;
-}
 
 footer {
     text-align: center;
@@ -49,15 +46,16 @@ footer {
 
 .hero-unit {
   padding: 20px;
+  color: #333333
 }
 
 p {
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  color: #333333;
+  color: #40362B;
 }
 
 ul.nav li {
