@@ -1,5 +1,5 @@
 base_url:    /
-description:  "Opinn Aðgangur á Íslandi"
-root_desc:    "Forsíða"
+description:  "Open Access"
+root_desc:    "Forsida"
 permalink:    pretty
-
+markdown: rdiscount
