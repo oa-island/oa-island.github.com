@@ -76,13 +76,13 @@
 
     <div class="container">
 
-      {{ page.content }}
+      {{ content | markdownify }}
 
       <hr>
 
       <footer>
         <p>
-          &copy;2012 Áhugahópur um opinn aðgang á Íslandi. Notkun efnis á síðunni er heimil samkvæmt skilmálum <a href="http://www.creativecommons.org">Creative Commons</a> <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Attribution 3.0 leyfis</a> nema annað sé tekið fram.
+          &copy; {{ site.time | date: '%Y' }} Áhugahópur um opinn aðgang á Íslandi. Notkun efnis á síðunni er heimil samkvæmt skilmálum <a href="http://www.creativecommons.org">Creative Commons</a> <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Attribution 3.0 leyfis</a> nema annað sé tekið fram.
         </p>
         <p>
           Hýst á vegum <a href="http://www.landsbokasafn.is">Landsbókasafns Íslands - Háskólabókasafns</a>.

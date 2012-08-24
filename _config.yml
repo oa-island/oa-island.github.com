@@ -1,4 +1,7 @@
 base_url:    /
 description:  "Opinn Aðgangur á Íslandi"
 root_desc:    "OA á Íslandi"
-markdown: rdiscount
+markdown: kramdown
+paginate: 10
+
+

@@ -40,9 +40,11 @@ title:  Forsíða
 <div class="row">
   <div class="span6">
     <h2>Fréttir og viðburðir</h2>
-    <p>
-      Það er alltaf eitthvað í gangi í tengslum við opinn aðgang. Hér er safnað saman tilvísunum í umræðuna á netinu.
-    </p>
+    <br />
+
+  {% assign posts = site.posts %}
+  {% assign listing_limit = 6 %}
+  {% include compact-post-listing.html %}
   </div>
   <div class="span6">
     <h2 style="text-align: center; margin-bottom: 10px">Algengar spurningar og leiðbeiningar fyrir..</h2>
