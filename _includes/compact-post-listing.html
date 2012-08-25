@@ -1,13 +1,13 @@
 {% for post in posts limit: listing_limit %}
-  <h3><a href="{{ post.url }}" class="dark-link">{{ post.title }}</a></h3>
-  <h4 class="low-top">
-    Birt {{ post.date | date_to_string }}
+  <hr style="margin: 5px" />
+  <h6 class="low-top">
+    {{ post.date | date_to_string }}
     {% unless no_category %}
       {% if post.category %}
         in <a href="/categories/{{ post.category | slugize }}">{{ post.category }}</a>
       {% endif %}
     {% endunless %}
-  </h4>
+  </h6>
+  <h3><a href="{{ post.url }}" class="dark-link">{{ post.title }}</a></h3>
   {{ post.content }}
-<hr />
 {% endfor %}
