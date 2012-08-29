@@ -24,23 +24,6 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <script type="text/javascript" src="/static/js/jquery.js"></script>
-    <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/static/js/bootstrap-carousel.js"></script>
-    <!--
-    <script src="/static/js/bootstrap-collapse.js"></script>
-    <script src="/static/js/bootstrap-transition.js"></script>
-    <script src="/static/js/bootstrap-alert.js"></script>
-    <script src="/static/js/bootstrap-modal.js"></script>
-    <script src="/static/js/bootstrap-dropdown.js"></script>
-    <script src="/static/js/bootstrap-scrollspy.js"></script>
-    <script src="/static/js/bootstrap-tab.js"></script>
-    <script src="/static/js/bootstrap-tooltip.js"></script>
-    <script src="/static/js/bootstrap-popover.js"></script>
-    <script src="/static/js/bootstrap-button.js"></script>
-    <script src="/static/js/bootstrap-typeahead.js"></script>
-    -->
-
   <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -78,11 +61,7 @@
     <![endif]-->
 
 <div class="container">
-  <a href="/">
-    <img src="/static/img/oaisland_logo.png" width="1200px"/>
-  </a>
-
-    <div class="navbar">
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -90,9 +69,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="/">Forsíða</a>
+          <a class="brand" href="/">
+            <img src="/static/img/logo20.png" height="20px" style="position: absolute;">
+            <span style="margin-left: 20px">Opinn aðgangur</span>
+          </a>
           <div class="nav-collapse">
-            <ul class="nav nav-pills"> 
+            <ul class="nav">
               <li class="dropdown" id="um">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#um">Um opinn aðgang <b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu">
@@ -118,6 +100,9 @@
 
       <hr>
 
+    <script type="text/javascript" src="/static/js/jquery.js"></script>
+    <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
       <footer>
   <div class="row">
     <div class="span6">
@@ -127,9 +112,9 @@
     </div>
     <div class="span6">
         <p>
-          Hýst á vegum <a class="external" href="http://www.landsbokasafn.is">Landsbókasafns Íslands - Háskólabókasafns</a>.<br />
-          <a href="http://www.landsbokasafn.is"><img src="/static/img/lbslogo.png" /></a>
+          Hýst á vegum <a  class="external" href="http://www.landsbokasafn.is">Landsbókasafns Íslands - Háskólabókasafns</a>.
         </p>
+        <a href="http://www.landsbokasafn.is"><img src="/static/img/lbslogo.png" height="20px"></a>
     </div>
   </div>
 
