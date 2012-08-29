@@ -4,7 +4,7 @@ title:  OpenAIREplus hleypt af stokkunum
 date: 2011-12-15
 ---
 
-Úr [frétt á OpenAIRE vefnum](http://www.openaire.eu/en/component/content/article/326-openaireplus-press-release):
+Úr [frétt á OpenAIRE vefnum](http://www.openaire.eu/en/component/content/article/326-openaireplus-press-release){:.external}:
 
 >OpenAIREplus (2nd Generation of Open Access Infrastructure for Research in Europe) was launched in Pisa in early December. The 30 month project, funded by the EC 7th Framework Programme, will work in tandem with OpenAIRE, extending the mission further to facilitate access to the entire Open Access scientific production of the European Research Area, providing cross-links from publications to data and funding schemes.
 
