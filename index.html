@@ -40,7 +40,7 @@ title:  Forsíða
     <h2>Fréttir og viðburðir</h2>
 
   {% assign posts = site.posts %}
-  {% assign listing_limit = 6 %}
+  {% assign listing_limit = 4 %}
   {% include compact-post-listing.html %}
   </div>
   <div class="span6">
@@ -85,8 +85,7 @@ title:  Forsíða
         <script type="text/javascript">
       new TWTR.Widget({
       version: 2,
-      type: 'search',
-      search: '#openaccess OR #oa',
+      type: 'profile',
       interval: 30000,
       title: 'Það sem fólk er að segja á Twitter um',
       subject: 'Opinn aðgang',
@@ -109,7 +108,7 @@ title:  Forsíða
       live: true,
       behavior: 'all'
       }
-      }).render().start();
+      }).render().setUser('OA_Iceland').start();
         </script>
       </div>
     </div>
