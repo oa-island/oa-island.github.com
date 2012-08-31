@@ -1,23 +1,23 @@
 @font-face {
     font-family: Roboto;
-    src: url("../fonts/Roboto-Regular.eot?") format('eot'), url("../fonts/Roboto-Regular.woff") format('woff'), url("../fonts/Roboto-Regular.ttf") format('ttf');
+    src: url("../fonts/Roboto-Regular.eot?") format('eot'), url("../fonts/Roboto-Regular.woff") format('woff'), url("../fonts/Roboto-Regular.ttf") format('truetype');
 }
 
 @font-face {
     font-family: Roboto;
-    src: url("../fonts/Roboto-Italic.eot?") format('eot'), url("../fonts/Roboto-Italic.woff") format('woff'), url("../fonts/Roboto-Italic.ttf") format('ttf');
+    src: url("../fonts/Roboto-Italic.eot?") format('eot'), url("../fonts/Roboto-Italic.woff") format('woff'), url("../fonts/Roboto-Italic.ttf") format('truetype');
     font-style: italic;
 }
 
 @font-face {
     font-family: Roboto;
-    src: url("../fonts/Roboto-Bold.eot?") format('eot'), url("../fonts/Roboto-Bold.woff") format('woff'), url("../fonts/Roboto-Bold.ttf") format('ttf');
+    src: url("../fonts/Roboto-Bold.eot?") format('eot'), url("../fonts/Roboto-Bold.woff") format('woff'), url("../fonts/Roboto-Bold.ttf") format('truetype');
     font-weight: bold;
 }
 
 @font-face {
     font-family: Roboto;
-    src: url("../fonts/Roboto-BoldItalic.eot?") format('eot'), url("../fonts/Roboto-BoldItalic.woff") format('woff'), url("../fonts/Roboto-BoldItalic.ttf") format('ttf');
+    src: url("../fonts/Roboto-BoldItalic.eot?") format('eot'), url("../fonts/Roboto-BoldItalic.woff") format('woff'), url("../fonts/Roboto-BoldItalic.ttf") format('truetype');
     font-weight: bold;
     font-style: italic;
 }
