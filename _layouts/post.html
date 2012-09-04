@@ -2,11 +2,28 @@
 layout: default
 ---
 <div id="post">
+
+  <h6 class="low-top">
+    {{ page.date | date_to_string }}
+    {% unless no_category %}
+      {% if page.category %}
+        in <a href="/categories/{{ page.category | slugize }}">{{ page.category }}</a>
+      {% endif %}
+    {% endunless %}
+
+  </h6>
+  <h2> {{ page.title }} </h2>
+
 {{ content }}
+
 </div>
 
+<br />
+
+<hr />
+
 <div id="related">
-  <h2>Related Posts</h2>
+  <h3>Fleiri fréttir um svipað efni</h3>
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
